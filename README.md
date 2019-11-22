@@ -1,8 +1,6 @@
-# Company2Vec API
+# Udacity DevOps Capstone Project
 
-This repository creates an API on AWS which generates a company vector embedding given a company name. Many machine 
-learning use cases in business require a company representation. This repo is designed to aid this process by being
-easy to understand, generalizable to different companies/industries and scalable. 
+This repository was created as the capstone project for the Udacity Cloud DevOps course. It creates an API on AWS which generates a company vector embedding given a company name - many machine learning use cases in business required company embeddings. See below for further information.
  
 
 ## Getting started
@@ -23,17 +21,6 @@ combination of an Azure API (to find the company website), scrapy (to do a shall
 pre-trained GloVe embeddings.
 
 The API is deployed, via a Jenkins CI/CD pipeline, onto EKS in AWS.
-
-
-## Documentation
-
-Documentation is a work in progress and will be added in due course.
-
-
-## Contributing
-
-Please do contribute to improve the repository. If you have an issue with the current code/documentation, do open an issue
-[here](https://github.com/eddiepease/company2vec-api/issues)
 
 
 ## Licensing
